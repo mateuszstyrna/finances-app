@@ -1,0 +1,44 @@
+.page-404 {
+  background: url("../images/login_background.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.error {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  flex-direction: column;
+  position: relative; }
+  .error:before {
+    content: '';
+    background: #fff;
+    width: 120%;
+    height: 50%;
+    position: absolute;
+    top: -150px;
+    transform: rotate(3deg); }
+  .error:after {
+    content: '';
+    background: #fff;
+    width: 120%;
+    height: 50%;
+    position: absolute;
+    bottom: -150px;
+    transform: rotate(3deg); }
+  .error__code {
+    font-size: 80px; }
+  .error__link {
+    color: #fff;
+    font-size: 32px;
+    background: #ffa500;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+/*# sourceMappingURL=404.css.map */
