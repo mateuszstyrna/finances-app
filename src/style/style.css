@@ -304,25 +304,30 @@ body {
     padding: 0; }
 
   .menu {
-    width: 100px; }
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
     .menu__profile {
-      width: 100px; }
-      .menu__profile--circle {
-        width: 200px;
-        height: 200px;
-        top: -10px;
-        left: -50px;
-        padding: 0;
-        align-items: center;
-        justify-content: center; }
+      display: none; }
     .menu__login {
       font-size: 18px; }
     .menu__email {
       display: none; }
-    .menu__link:before {
-      top: -15px; }
+    .menu__link {
+      padding: 10px; }
+      .menu__link:before {
+        top: -15px; }
     .menu__text {
       display: none; } }
+@media all and (max-width: 800px) {
+  .table__head {
+    display: none; }
+  .table__foot {
+    display: none; }
+  .table__tr--tbody {
+    display: flex;
+    flex-direction: column; } }
 @media all and (max-width: 490px) {
   .not-logged__container {
     padding: 0; }

@@ -409,18 +409,12 @@ body {
 	}
 
 	.menu {
-		width: 100px;
+		width: 60px;
+		justify-content: center;
+    	align-items: center;
+    	display: flex;
 		&__profile {
-			width: 100px;
-			&--circle {
-				width: 200px;
-				height: 200px;
-				top: -10px;
-				left: -50px;
-				padding: 0;
-				align-items: center;
-				justify-content: center;
-			}
+			display: none;
 		}
 
 		&__login {
@@ -431,12 +425,32 @@ body {
 			display: none;
 		}
 
-		&__link:before {
-			top: -15px;
+		&__link {
+			padding: 10px;
+			&:before {
+				top: -15px;
+			}
 		}
 
 		&__text {
 			display: none;
+		}
+	}
+}
+
+@media all and (max-width: 800px) {
+	.table {
+		&__head {
+			display: none;
+		}
+
+		&__foot {
+			display: none;
+		}
+
+		&__tr--tbody {
+			display: flex;
+			flex-direction: column;
 		}
 	}
 }
