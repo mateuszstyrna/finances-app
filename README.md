@@ -1,5 +1,5 @@
 ## Live
-<a href="http://mateusz-styrna.pl:5000/">http://mateusz-styrna.pl:5000/</a>
+<a href="http://mateusz-styrna.pl:5000/">http://mateusz-styrna.pl/projects/mybankroll</a>
 ## About Me
 
 <ul>
